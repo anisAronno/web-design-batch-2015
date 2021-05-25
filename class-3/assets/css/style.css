@@ -1,0 +1,55 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Blog section css */
+
+.blog-section{
+    
+}
+.blog-section .blog{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.blog-section .blog .blog-item{
+    width: 400px;
+    margin: 0px 20px;
+    padding: 20px;
+    
+}
+.blog-section .blog .blog-item h1{}
+.blog-section .blog .blog-item img{
+    width: 400px;
+}
+.blog-section .blog .blog-item article{}
+
+
+.form{
+    margin: 100px;
+    border: 5px solid red;
+}
+
+.form input{
+width: 500px;
+padding: 20px;
+margin: 30px;
+display: block;
+}
+
+.form button{
+    color:green;
+    padding: 20px 50px;
+    margin: 20px;
+
+}
+
+.form p{
+    text-align: center;
+    margin: 20px;
+    color: red;
+    font-weight: bold;
+}
