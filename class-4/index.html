@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <dl>
+        <dt>WHO</dt>
+        <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iste!</dd>
+    </dl>
+
+    <dl>
+        <dt>Bangladesh</dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti suscipit praesentium, tempore iste eveniet nisi fugit commodi soluta, blanditiis ab, quas necessitatibus quidem incidunt repellendus adipisci ducimus vitae quisquam ratione.
+        </dd>
+    </dl>
+
+    <ol>
+        <li>Dhaka</li>
+        <li>Comilla</li>
+        <li>Barishal</li>
+        <li>Rajshahi</li>
+    </ol>
+
+    <ul>
+        <li>Shakib</li>
+        <li>Tamim</li>
+        <li>Rubel</li>
+        <li>Taskin</li>
+        <li>Mushfique</li>
+    </ul>
+
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Registration Form</legend>
+          
+            <label for="userName"> Name:</label>
+            <input required type="text" id="userName" name="userName">
+            <br><br>
+            <label for="password"> Password:</label>
+            <input required type="password" id="password" name="password">
+            <br><br>
+
+            <label for="userEmail">Email:</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="Please Type Your Mail">
+            <br><br>
+            <label for="userMobile">Mobile:</label>
+            
+            <input required type="number" min="11" max="16" name="userMobile" id="userMobile" value="015151511554">
+            <br><br>
+
+            <label for="division">Division:</label>
+            <select name="division" id="division">
+                <option selected disabled>Select District</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chitagoan">Chitagoan</option>
+                <option value="Barishal">Barishal</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Maymonshing">Maymonshing</option>
+                <option value="Sylet">Sylet</option>
+            </select>
+
+            <br><br>
+            <label for="message" style="display: block; margin-bottom: 10px;">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="5">
+            </textarea>
+            
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input checked type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Others"> Others
+
+            <br><br>
+            <label for="terms">Are You Agree?</label>
+            <input checked type="checkbox" name="terms" id="terms">
+            <br><br>
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
