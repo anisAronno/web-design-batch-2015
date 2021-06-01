@@ -1,0 +1,41 @@
+.demo{ 
+    color: blue;
+    background-color: red;
+}
+#para{
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+.test{
+    font-size: 50px;
+}
+
+.dummy{
+    font-weight: bolder;
+}
+
+
+.parent .child> p{
+    color: red;
+}
+
+.parent>p, .parent .child .grand-child> p{
+    color: rgb(60, 255, 0);
+}
+
+
+/* 
+Header CSS
+*/
+.header{
+
+}
+
+/*
+Footer Section CSS
+*/
+
+.footer{
+
+}
