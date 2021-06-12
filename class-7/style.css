@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent .left {
+    color: red;
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color: rgb(36, 17, 121);
+}
+
+.parent .right {
+    color: blue;
+    float: right;
+    height: 500px;
+    width: 80%;
+    background-color: rgb(193, 74, 74);
+    text-align: justify;
+}
+.test{
+    text-align: center;
+}
+.test #heading{
+    color: rgb(196, 212, 226);
+    font-size: 30px;
+    display: inline-block;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(65, 29, 197);
+}
+
+.test #heading:hover{
+    color: red;
+    font-size: 40px;
+    background-color: rgb(221, 220, 226);
+}
+
+.psoudu{
+    text-align: center;
+}
+
+.psoudu .para{
+    color: rgb(196, 212, 226);
+    font-size: 30px;
+    background-color: rgb(7, 133, 70);
+    /* cursor: pointer; */
+}
+
+.psoudu .para::selection{
+    color: yellow;
+    
+}
+.psoudu .para::first-letter{
+    color: yellow;
+    font-size: 100px;
+    
+}
+
+
+.psoudo-class{
+    margin: 100px;
+}
+
+/* .psoudo-class p:nth-child(5){
+    color: red;
+} */
+
+
+.psoudo-class p:not(:nth-child(5)){
+    color:red;
+}
+
+
+
+
+.menu ul li{
+    float: left;
+    padding: 20px 10px;
+    width: 20%;
+    background-color: red;
+    list-style: none;
+   
+}
+
+.menu ul li:not(:last-child){
+    border-right: 5px solid black;
+}
